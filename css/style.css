@@ -1,0 +1,175 @@
+body {
+  background-image: url("../Images/background.avif");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  display: inline-block;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: start;
+  color: #6e5e68;
+  font-size: 40px;
+}
+
+h2 {
+  flex-direction: row;
+  font-family: "Apercu", sans-serif;
+  text-align: center;
+  color: #6e5e68;
+  font-size: 30px;
+}
+
+h3 {
+  font-family: "Apercu", sans-serif;
+  text-align: center;
+  color: #6e5e68;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-family: "Apercu", sans-serif;
+  text-align: center;
+  color: #6e5e68;
+  font-size: 20px;
+}
+
+.nav-logo {
+  border: 5px solid #7d6b76;
+  border-radius: 50%;
+  padding: 5px;
+  width: 100px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #6e5e68;
+  font-size: 20px;
+}
+
+.nav-menu a:hover {
+  color: #c9a5ff;
+}
+
+.profpic {
+  flex-direction: row;
+  border: 5px solid #7d6b76;
+  border-radius: 20px;
+  padding: 5px;
+  width: 400px;
+}
+.hero-container {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  gap: 80px;
+  background-color: #d2c6ce;
+  margin: auto;
+  padding: 70px 40px;
+  font-size: 20px;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  color: #7d6b76;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.about-container {
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  font-size: 30px;
+  color: #7d6b76;
+  text-align: left;
+  font-size: 20px;
+  line-height: 1.6;
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px;
+  max-width: 100%;
+}
+
+#skills {
+  background: #c8bcc8;
+  padding: 70px;
+}
+
+.skills-list-container ul {
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+  list-style: none;
+  padding: 0;
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+  gap: clamp(15px, 10vw, 300px);
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list-container li a {
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  color: rgb(162, 142, 164);
+  text-decoration: none;
+  font-weight: bold;
+}
+.skills-list-container li:nth-child(1) a {
+  background: #f5ebf2;
+}
+.skills-list-container li:nth-child(2) a {
+  background: #e8d5fa;
+}
+.skills-list-container li:nth-child(3) a {
+  background: #e0d4ba;
+}
+.skills-list-container li:nth-child(4) a {
+  background: #f4ceee;
+}
+
+.project-github-btn {
+  display: inline-block;
+  background-color: #9f8796;
+  color: #f5ebf2;
+  padding: 10px 24px;
+  border-radius: 20px;
+  text-decoration: none;
+  margin-top: 15px;
+  transition: all 0.3s ease;
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.project-github-btn:hover {
+  background-color: #2a282e;
+  color: #dcc5e0;
+}
