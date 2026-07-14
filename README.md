@@ -2,6 +2,9 @@ Project 2: Responsive Coded interface: Student Portfolio interface
 Amanda Benjamin
 
 https://github.com/moorsrdh/Benjamin_portfoilointerface
+(https://moorsrdh.github.io/Benjamin_portfoliointerface/)website
+
+
 
 
 ## Project Description
